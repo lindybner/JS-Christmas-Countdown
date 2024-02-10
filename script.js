@@ -28,3 +28,5 @@ const countdownDays = countdownMS / (1000 * 60 * 60 * 24);
 
 // Step 7: Display the result
 // Once you have the number of days left until Christmas, display it to the user
+const countdownDisplay = document.querySelector("#countdown");
+countdownDisplay.innerHTML = countdownDays;
